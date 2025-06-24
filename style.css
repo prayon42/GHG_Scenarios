@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f8fb;
+    margin: 0;
+    padding: 30px;
+    font-size: 18px; /* Increased base font size */
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 32px; /* Bigger title */
+    margin-bottom: 30px;
+  }
+  
+  .selectors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  label {
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 8px;
+  }
+  
+  button {
+    padding: 14px 28px;
+    font-size: 18px;
+    background: #3498db;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background: #2c80ba;
+  }
+  
+  .output {
+    margin-top: 40px;
+    background: #ecf0f1;
+    padding: 30px;
+    border-radius: 8px;
+    font-size: 18px;
+  }
+  .emission-addition {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .emission-reduction {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .emission-neutral {
+    color: #555;
+    font-weight: bold;
+  }
+  
