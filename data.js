@@ -49,7 +49,7 @@ const emissionData = [
   const emissionFactors = {
     "Petrol car (per km)": 0.275,
     "LPG cylinder (14.2 kg)": 0.15,
-    "Flight (Kathmandu–London)": 2700,
+    "Flight (Kathmandu–London)": 5200,
     "Firewood (per kg)": 1.07,
     "Household electricity (annual, kWh)": 0.484,
     "City bus (per km per passenger)": 0.520,
