@@ -59,7 +59,9 @@ function populateSelectors() {
       "Flight (Kathmandu–London)": { label: "round trips KTM–London", icon: "✈️", unit: "flights" },
       "Firewood (per kg)": { label: "of firewood burned", icon: "🔥", unit: "kg" },
       "Household electricity (annual, kWh)": { label: "household electricity", icon: "💡", unit: "kWh" },
-      "City bus (per km per passenger)": { label: "travelled on city bus", icon: "🚌", unit: "km" }
+      "City bus (per km per passenger)": { label: "travelled on city bus", icon: "🚌", unit: "km" },
+      "Arctic Ice (per sq. m.)": { label: "arctic ice", icon: "❄️", unit: "sq. m." }
+      
     };
   
     const equivalents = Object.entries(emissionFactors).map(([activity, factor]) => {

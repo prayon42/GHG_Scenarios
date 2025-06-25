@@ -53,5 +53,6 @@ const emissionData = [
     "Firewood (per kg)": 1.07,
     "Household electricity (annual, kWh)": 0.484,
     "City bus (per km per passenger)": 0.520,
+    "Arctic Ice (per sq. m.)" : 333.33
   };
   
